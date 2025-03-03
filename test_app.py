@@ -1,5 +1,7 @@
 ### Contient les tests unitaires de l'application
+import unittest
 from app import say_hello
+
 
 class TestApp(unittest.TestCase):
     def test_say_hello(self):
